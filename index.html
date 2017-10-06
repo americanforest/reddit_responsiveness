@@ -1,15 +1,44 @@
 <html>
 
 <head>
-
-
+    
+    <meta charset="utf-8">
+    
+    <!-- Import jQuery library from Google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- Script for Reddit JSON API interactions -->
+    <script src="js/redditjson.js"></script>
+    
+    <title>Reddit Subreddit Responsiveness</title>
+    
 </head>
 
 
+    
 
 <body>
 
+<div id="title">
 
+    <h1>Subreddit Responsiveness</h1>
+    
+</div>
+    
+<p> Enter a subreddit below to see it's responsiveness</p>
+    
+    <div id="searchField">
+    
+        <form id="domainform" name="domainform">
+        
+            <input type="text" id="s" name="s" placeholder="ex: music">
+            <input type="submit" value="Submit">
+        
+        </form>
+        
+    </div>
+    
+    <div id="content"></div>
 
 </body>
 
