@@ -9,7 +9,7 @@ import time
 # Create the instance of Reddit to use
 
 reddit = praw.Reddit(client_id='OnutaBIG1C-oKA',
-                     client_secret='dAh_uBueOpI9X6rcVVXvdfVNLpQ',
+                     client_secret='',
                      user_agent='fedora (by /u/glkjap)') 
 
 # Current UNIX time UTC
